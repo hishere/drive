@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - env:
-          HUB: fjso
-        run: | 
-          echo $HUB
+          HUB: ${{github}}
+        run: echo $HUB
