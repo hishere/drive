@@ -1,0 +1,6 @@
+name: 测试
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo 'xxxx'
