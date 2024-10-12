@@ -1,6 +1,7 @@
-name: 测试
+name: 'do some test'
 jobs:
   myjob:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'xxxx'
+      - name: 'test echo'
+        run: echo 'xxxx'
