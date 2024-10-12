@@ -1,7 +1,9 @@
 name: 'do some test'
-on: [push,pull_request]
+on: 
+  push:
+    branches: [main,dev]
 jobs:
-  cyjob:
+  vcyjob:
     runs-on: ubuntu-latest
     steps:
       - name: 'test echo'
