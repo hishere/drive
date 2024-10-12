@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - env:
-          HUB: ${{github}}
+          HUB: ${{toJSON(github)}}
         run: echo $HUB
