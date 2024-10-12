@@ -6,6 +6,7 @@ jobs:
   myjob:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'xxxx'
-      - run: echo 'yyyy'
-  
+      - env:
+          HUB: fjso
+        run: | 
+          echo $HUB
