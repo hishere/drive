@@ -10,4 +10,4 @@ jobs:
       - env:
           HUB: ${{toJSON(github)}}
         run: echo $HUB
-      - run: echo ${GITHUB_REF}
+      - run: echo ${GITHUB_REF/refs\/tags\//}
