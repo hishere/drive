@@ -1,4 +1,4 @@
-name: 'sdoo some test'
+name: 'ssdoo some test'
 on: 
   push:
     tags: 
