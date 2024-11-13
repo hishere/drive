@@ -10,4 +10,4 @@ jobs:
       - env:
           HUB: ${{toJSON(github)}}
         run: echo $HUB
-      - run: echo ${{github.ref}}
+      - run: echo ${GITHUB_REF}
