@@ -1,4 +1,4 @@
-name: 'do some test'
+name: 'doo some test'
 on: 
   push:
     branches: [main]
